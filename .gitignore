@@ -1,0 +1,12 @@
+
+.vs/OOP/v16/
+
+Debug/
+
+*.sln
+
+OOP.vcxproj
+
+*.filters
+
+OOP.vcxproj.user
