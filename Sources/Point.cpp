@@ -2,10 +2,9 @@
 
 using namespace std;
 
-Point::Point()
+Point::Point(): _x(0), _y(0)
 {
 	cout << "Point created with null values" << endl;
-	memset(this, 0, sizeof(Point));
 }
 
 Point::Point(int x, int y): _x(x), _y(y)

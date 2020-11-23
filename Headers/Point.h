@@ -1,7 +1,10 @@
 #pragma once
-class Point
+#include "../Headers/main.h"
+
+class Point:
+	public GraphicObject
 {
-	private:
+	protected:
 		int _x, _y;
 	public:
 		//Constructeurs
@@ -15,12 +18,12 @@ class Point
 		Point(const Point &p);
 
 		//Destructeur
-		~Point();
+		virtual ~Point();
 
 		//std::string toString();
-		void display();
+		virtual void display() override;
 
-		//Accessers
+		//AccessOrs
 		int getX();
 		int getY();
 
